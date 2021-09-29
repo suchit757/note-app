@@ -1,0 +1,46 @@
+.noteConatiner-css{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 15%;
+    height: fit-content;
+}
+.noteConatiner-css:hover{
+    height: fit-content;
+    .delete_css{
+        display: block;
+        transition: 330ms;
+        // float: left;
+    }
+}
+
+.noteConatiner-css_details{
+    resize: none;
+    background-color: transparent;
+    width: 225px;
+    height: 80px;
+    border: none;
+    outline: none;
+}
+
+.noteConatiner-css_title{
+    background-color: transparent;
+    width: 225px;
+    height: 25px;
+    border: none;
+    outline: none;
+}
+
+.text_css{
+    font-weight: 600;
+}
+
+.delete_css{
+    height: 22px;
+    width: 22px;
+    margin: 10px 0px 0px 90%;
+    cursor: pointer;
+    display: none;
+    transition: 330ms;
+}
