@@ -45,7 +45,7 @@ export default class CreateNote extends React.Component {
         z.push({
             id: Date.now() + "" + Math.floor(Math.random() * 78),
             title: `${x[0].value}`,
-            detail: `${y[0].value}`,
+            details: `${y[0].value}`,
             color: `${this.state.value}`
         })
         this.setState({ notesData: z })
