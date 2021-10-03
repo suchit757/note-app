@@ -1,3 +1,36 @@
+<!--OutLook of Project  -->
+
+![Screenshot from 2021-10-04 02-42-16](https://user-images.githubusercontent.com/53007019/135773415-961d0129-75b4-4b7c-bcbd-6030bfe6a310.png
+![Screenshot from 2021-10-04 02-42-43](https://user-images.githubusercontent.com/53007019/135773421-327dab3b-dbb8-4371-b067-c063d4fc2749.png)
+![Screenshot from 2021-10-04 03-54-44](https://user-images.githubusercontent.com/53007019/135773424-fe312c8c-d84b-47e4-a38c-b20c1879eb34.png)
+![Screenshot from 2021-10-04 03-55-07](https://user-images.githubusercontent.com/53007019/135773428-ebce2c6c-cd90-4e48-aaac-4c9a615ae695.png)
+
+)
+
+
+<!-- note-App -->
+
+# two types card will be made.
+1. create note card:-
+(a).In this section coustomize all thing like we use color, title, discription.
+(b).title validation aslo implimented only 30 words allowed.
+(c).Color dropDown.
+(d).CRUD operation implimented.
+#
+2. Add Notes card:-
+(a). Notes Cards Added dynamically
+(b).Color are auto Define Dynamically change in every new card add with is functionaity.
+(c).State are store note lose state.
+
+####
+:-> On card hover delete button visible . we also delete note cards.
+
+# use searching functinaity of notes card.
+:-> per letter search functinallity
+
+## using LocalStorage for state not lose.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,27 +77,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-
-<!-- note-App -->
-
-# two types card will be made.
-1. create note card:-
-(a).In this section coustomize all thing like we use color, title, discription.
-(b).title validation aslo implimented only 30 words allowed.
-(c).Color dropDown.
-(d).CRUD operation implimented.
-#
-2. Add Notes card:-
-(a). Notes Cards Added dynamically
-(b).Color are auto Define Dynamically change in every new card add with is functionaity.
-(c).State are store note lose state.
-
-####
-:-> On card hover delete button visible . we also delete note cards.
-
-# use searching functinaity of notes card.
-:-> per letter search functinallity
-
-## using LocalStorage for state not lose.
-
