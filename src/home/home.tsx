@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import NoteContainer from '../noteContainer/noteContainer';
 import "./home.scss";
 import searchIcon from "../image/search.svg";
-import { useSelector, useDispatch } from 'react-redux';
+// import { useSelector, useDispatch } from 'react-redux';
 
 export interface INotesData{
     id: string;
@@ -24,19 +24,19 @@ export default class Home extends Component {
     }
 
     componentDidMount(){
-        const currentdata = JSON.parse(localStorage.getItem('noteData') || '{}');
-        const current = JSON.parse(localStorage.getItem('creteNote-data') || '{}');
+        const currentdata = JSON.parse(localStorage.getItem('noteData') || '[]');
+        const current = JSON.parse(localStorage.getItem('creteNote-data') || '[]');
         localStorage.setItem('selectedServers', JSON.stringify(currentdata.concat(current)));
-        const x = JSON.parse(localStorage.getItem('selectedServers') || '{}');
+        const x = JSON.parse(localStorage.getItem('selectedServers') || '[]');
         const UniqeFliter = x.filter((a: any, i: any) => x.findIndex((s: any) => a.id === s.id) === i)
-
         this.setState({
-            notesData : UniqeFliter || []
+            notesData : UniqeFliter
         })
     }
 
 
     createNote(){
+        localStorage.setItem( "selectedServers", JSON.stringify( this.state.notesData ) );
         ( this.props as any ).history.push( "/create/note" );
     }
 
@@ -70,6 +70,7 @@ export default class Home extends Component {
             notesData: tempNotes
         })
         localStorage.setItem('noteData',  JSON.stringify( tempNotes) );
+        localStorage.setItem( "creteNote-data", JSON.stringify( tempNotes ) );
     }
 
     reverseArray = (arr: any) => {

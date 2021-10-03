@@ -22,6 +22,13 @@ export default class CreateNote extends React.Component {
         notesData:  [],
     }
 
+    componentDidMount(){
+        const current = JSON.parse(localStorage.getItem('creteNote-data') || '[]');
+        this.setState({
+            notesData : current
+        })
+    }
+
     constructor(props: any) {
         super(props);
         this.handleChange = this.handleChange.bind(this);
@@ -76,7 +83,7 @@ export default class CreateNote extends React.Component {
                         <form>
                             <label>Select Color for Notes card design:- </label>
                             <select value={this.state.value} onChange={this.handleChange}>
-                            <option value="tomato">select color</option>
+                            <option >select color</option>
                                 <option value="tomato">Red</option>
                                 <option value= "teal">Green</option>
                                 <option value= "yellow">yellow</option>
