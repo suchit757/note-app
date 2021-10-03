@@ -1,11 +1,7 @@
 <!--OutLook of Project  -->
 
-![Screenshot from 2021-10-04 02-42-16](https://user-images.githubusercontent.com/53007019/135773415-961d0129-75b4-4b7c-bcbd-6030bfe6a310.png
+![Screenshot from 2021-10-04 02-42-16](https://user-images.githubusercontent.com/53007019/135773415-961d0129-75b4-4b7c-bcbd-6030bfe6a310.png)
 ![Screenshot from 2021-10-04 02-42-43](https://user-images.githubusercontent.com/53007019/135773421-327dab3b-dbb8-4371-b067-c063d4fc2749.png)
-![Screenshot from 2021-10-04 03-54-44](https://user-images.githubusercontent.com/53007019/135773424-fe312c8c-d84b-47e4-a38c-b20c1879eb34.png)
-![Screenshot from 2021-10-04 03-55-07](https://user-images.githubusercontent.com/53007019/135773428-ebce2c6c-cd90-4e48-aaac-4c9a615ae695.png)
-
-)
 
 
 <!-- note-App -->
