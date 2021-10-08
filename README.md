@@ -1,10 +1,6 @@
-<!--OutLook of Project  -->
+# OverView of App
 
-![Screenshot from 2021-10-04 02-42-16](https://user-images.githubusercontent.com/53007019/135773415-961d0129-75b4-4b7c-bcbd-6030bfe6a310.png)
-![Screenshot from 2021-10-04 02-42-43](https://user-images.githubusercontent.com/53007019/135773421-327dab3b-dbb8-4371-b067-c063d4fc2749.png)
-![Screenshot from 2021-10-04 04-01-06](https://user-images.githubusercontent.com/53007019/135773583-d4fbbce6-e3da-496b-8ec4-a5294ae062aa.png)
-![Screenshot from 2021-10-04 04-01-30](https://user-images.githubusercontent.com/53007019/135773585-395103d3-5bbe-4f23-9d48-6f0a5a9a4d46.png)
-
+![Note-App](https://user-images.githubusercontent.com/53007019/136614993-6a328949-bc69-4fd0-9983-6f9227643674.gif)
 
 <!-- note-App -->
 
